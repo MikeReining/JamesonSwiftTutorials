@@ -14,6 +14,7 @@
 		2700DB4C1A574AEA00354BBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2700DB4A1A574AEA00354BBF /* LaunchScreen.xib */; };
 		2700DB581A574AEB00354BBF /* SwiftTutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700DB571A574AEB00354BBF /* SwiftTutorialsTests.swift */; };
 		2700DB621A5753EF00354BBF /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2700DB611A5753EF00354BBF /* APIController.swift */; };
+		27750EC11A5A50E600E94461 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27750EC01A5A50E600E94461 /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2700DB561A574AEB00354BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2700DB571A574AEB00354BBF /* SwiftTutorialsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorialsTests.swift; sourceTree = "<group>"; };
 		2700DB611A5753EF00354BBF /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		27750EC01A5A50E600E94461 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				2700DB4A1A574AEA00354BBF /* LaunchScreen.xib */,
 				2700DB3F1A574AEA00354BBF /* Supporting Files */,
 				2700DB611A5753EF00354BBF /* APIController.swift */,
+				27750EC01A5A50E600E94461 /* Album.swift */,
 			);
 			path = SwiftTutorials;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				2700DB441A574AEA00354BBF /* SearchResultsViewController.swift in Sources */,
 				2700DB421A574AEA00354BBF /* AppDelegate.swift in Sources */,
 				2700DB621A5753EF00354BBF /* APIController.swift in Sources */,
+				27750EC11A5A50E600E94461 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				2700DB5D1A574AEB00354BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2700DB5E1A574AEB00354BBF /* Build configuration list for PBXNativeTarget "SwiftTutorialsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				2700DB601A574AEB00354BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

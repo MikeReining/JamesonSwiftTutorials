@@ -13,7 +13,7 @@ protocol APIControllerProtocol {
 }
 
 class APIController {
-    var delegate: APIControllerProtocol?
+    var delegate: APIControllerProtocol
     
     init(delegate: APIControllerProtocol) {
         self.delegate = delegate
@@ -27,7 +27,7 @@ class APIController {
         
         // Now escape anything else that isn't URL-friendly
         if let escapedSearchTerm = itunesSearchTerm.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding) {
-            let urlPath = "http://itunes.apple.com/search?term=\(escapedSearchTerm)&media=software"
+            let urlPath = "http://itunes.apple.com/search?term=\(escapedSearchTerm)&media=music&entity=album"
             let url = NSURL(string: urlPath)
             println(url)
             let session = NSURLSession.sharedSession()
@@ -44,7 +44,7 @@ class APIController {
                     // If there is an error parsing JSON, print it to the console
                     println("JSON Error \(err!.localizedDescription)")
                 }
-                self.delegate?.didReceiveAPIResults(jsonResult)
+                self.delegate.didReceiveAPIResults(jsonResult)
                 
             })
             
